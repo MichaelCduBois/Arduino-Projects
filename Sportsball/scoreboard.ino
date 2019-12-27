@@ -54,6 +54,7 @@ void loop() {
 
   // Team Display Adjustments
   switch (teamSelect) {
+    // Away Team
     case false:
       lcd.setCursor(0, 0);
       lcd.print("*");
@@ -77,6 +78,7 @@ void loop() {
       }
       break;
 
+    // Home Team
     case true:
       lcd.setCursor(0, 0);
       lcd.print(" ");
