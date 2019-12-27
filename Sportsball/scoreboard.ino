@@ -103,5 +103,5 @@ void loop() {
 }
 
 void triggerDelay() {
-  delay(500);
+  delay(250);
 }
