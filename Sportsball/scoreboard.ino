@@ -49,6 +49,7 @@ void loop() {
   // Team Selection
   if (digitalRead(selectTeam) == LOW) {
     teamSelect = !teamSelect;
+    triggerDelay();
   }
 
   // Team Display Adjustments
@@ -60,15 +61,19 @@ void loop() {
       lcd.print(" ");
       if (digitalRead(addOne) == LOW) {
         awayScore += 1;
+        triggerDelay();
       }
       if (digitalRead(addTwo) == LOW) {
         awayScore += 2;
+        triggerDelay();
       }
       if (digitalRead(addThree) == LOW) {
         awayScore += 3;
+        triggerDelay();
       }
       if (digitalRead(addSix) == LOW) {
         awayScore += 6;
+        triggerDelay();
       }
       break;
 
@@ -79,19 +84,24 @@ void loop() {
       lcd.print("*");
       if (digitalRead(addOne) == LOW) {
         homeScore += 1;
+        triggerDelay();
       }
       if (digitalRead(addTwo) == LOW) {
         homeScore += 2;
+        triggerDelay();
       }
       if (digitalRead(addThree) == LOW) {
         homeScore += 3;
+        triggerDelay();
       }
       if (digitalRead(addSix) == LOW) {
         homeScore += 6;
+        triggerDelay();
       }
       break;
   }
+}
 
-  // Trigger Delay
+void triggerDelay() {
   delay(500);
 }
