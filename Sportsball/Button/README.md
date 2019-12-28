@@ -13,10 +13,10 @@ Standalone hardware program to track Sportsball scores with buttons.
 - Active team is marked with an `*`.
 - Buttons are counted from the `LEFT`.
 - Use the `FIRST` Button to switch teams.
-- Use the `SECOND` Button to add `6` to the active teams' score.
-- Use the `THIRD` Button to add `3` to the active teams' score.
-- Use the `FOURTH` Button to add `2` to the active teams' score.
-- Use the `FIFTH` Button to add `1` to the active teams' score.
+- Use the `SECOND` Button to add `6` to the active team's score.
+- Use the `THIRD` Button to add `3` to the active team's score.
+- Use the `FOURTH` Button to add `2` to the active team's score.
+- Use the `FIFTH` Button to add `1` to the active team's score.
 
 ## Hardware List
 
