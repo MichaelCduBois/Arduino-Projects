@@ -1,0 +1,9 @@
+# IR Codes for Lasko Model Remote
+
+Button | Code
+--|--
+POWER | 2737486129
+SPEED | 338831067
+OSC | 970202566
+TIMER | 3768077238
+IONIZER | 489680886
