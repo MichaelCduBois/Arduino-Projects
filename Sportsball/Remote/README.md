@@ -1,4 +1,4 @@
-# Sportsball REmote Control
+# Sportsball Remote Control
 
 Standalone hardware program to track Sportsball scores with remote control.
 
