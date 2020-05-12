@@ -19,5 +19,5 @@ void loop() {
   Serial.print("Y-axis: ");
   Serial.println(analogRead(Y_pin));
   Serial.print("\n\n");
-  delay(500);
+  delay(50);
 }
